@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "llamalibrarian",
+	"version": "${version}",
+	"name": "LLaMaLibrarian",
+	"description": "Join forces with LlamaLibrarian, where you can engage in witty banter, explore new ideas, and build creative connections with your chatty llama friend!",
+	"authors": [
+		"Anthony Clemens aka billybobpickle"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/llamalibrarian/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.llamalibrarian.LLaMaLibrarian"
+		],
+		"client": [
+			"com.llamalibrarian.LLaMaLibrarianClient"
+		]
+	},
+	"mixins": [
+		"llamalibrarian.mixins.json",
+		{
+			"config": "llamalibrarian.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
