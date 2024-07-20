@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "sgs",
+    "scs",
+    "srs"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stone"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    },
+    "c": {
+      "item": "minecraft:comparator"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "llamalibrarian:computer"
+  }
+}

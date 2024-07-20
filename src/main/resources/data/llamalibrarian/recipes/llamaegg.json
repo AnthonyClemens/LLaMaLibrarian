@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "lql",
+    "qcq",
+    "lql"
+  ],
+  "key": {
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "q": {
+      "item": "minecraft:quartz_block"
+    },
+    "c": {
+      "item": "llamalibrarian:computer"
+    }
+  },
+  "result": {
+    "item": "llamalibrarian:llamalibrarianegg"
+  }
+}
